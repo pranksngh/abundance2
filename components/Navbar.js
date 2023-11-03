@@ -139,6 +139,12 @@ const Navbar = () => {
                             >
                                 Contact Us
                             </Link>
+                            <Link
+                                href={"/products/trypay/"}
+                                className="text-base font-medium text-white hover:text-gray-300"
+                            >
+                                FAQ
+                            </Link>
                         </div>
                     </div>
                     <div className="hidden md:flex md:items-center md:space-x-6">

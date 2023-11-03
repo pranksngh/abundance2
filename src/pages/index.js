@@ -117,7 +117,7 @@ const Home = () => {
                         <GetStarted />
 
                         {/* our team section */}
-                        <Team title={"Meet our team"} />
+                        <Team title={"Meet Our Team"} />
 
                         {/* our partners section */}
                         <p className="mt-2 text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">

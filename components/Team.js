@@ -34,16 +34,15 @@ const Team = ({ title }) => {
             <div className="relative mx-auto max-w-7xl px-6 text-center lg:px-8 z-10">
                 <div className="mx-auto max-w-2xl">
                     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                        {title}
+                        {"Meet Our Team"}
                     </p>
                     <p className="mx-auto mt-5 max-w-prose text-xl text-gray-500">
-                        We are the Brains and Heart Behind Your Payment
-                        Solutions
+                       With Over 50+ Years of combined experience, We've got a best team
                     </p>
                 </div>
                 <ul
                     role="list"
-                    className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
+                    className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-6 lg:grid-center"
                 >
                     {people.map((person) => (
                         <li

@@ -15,34 +15,35 @@ const stats = [
 ];
 const values = [
     {
-        name: "Be world-class",
+        name: "Enhance User Experience",
         description:
-            "Aut illo quae. Ut et harum ea animi natus. Culpa maiores et sed sint et magnam exercitationem quia. Ullam voluptas nihil vitae dicta molestiae et. Aliquid velit porro vero.",
+    "We aims to provide an exceptional user experience by offering user-friendly interfaces, responsive customer support, and efficient troubleshooting to ensure that technology serves as an enabler rather than a hindrance.",
+  },
+    {
+        name: "Ensure Information Security",
+        description:
+     "IT departments play a crucial role in safeguarding sensitive and confidential data. Their mission is to establish and maintain robust security measures, protect against cyber threats, and ensure data privacy and compliance with relevant regulations.",
+       },
+    {
+        name: "Seamless Integration",
+        description:
+         "IT should aim for seamless integration of various systems and applications. Customers appreciate technology that works together cohesively, making their tasks easier and more efficient.",
+            },
+    {
+        name: "Quality Service Delivery",
+        description:
+            "The primary mission from a customer's viewpoint is to receive quality service. Customers expect IT to provide them with reliable and efficient technology solutions that enable them to carry out their tasks without disruptions.",
     },
     {
-        name: "Share everything you know",
+        name: "User-Focused Solutions",
         description:
-            "Mollitia delectus a omnis. Quae velit aliquid. Qui nulla maxime adipisci illo id molestiae. Cumque cum ut minus rerum architecto magnam consequatur. Quia quaerat minima.",
-    },
+          "Focusing on delivering technology solutions that meet the specific needs and preferences of the end-users. This includes intuitive interfaces and easy-to-use tools."
+        
+        },
     {
-        name: "Always learning",
+        name: "Accessible Help Desk",
         description:
-            "Aut repellendus et officiis dolor possimus. Deserunt velit quasi sunt fuga error labore quia ipsum. Commodi autem voluptatem nam. Quos voluptatem totam.",
-    },
-    {
-        name: "Be supportive",
-        description:
-            "Magnam provident veritatis odit. Vitae eligendi repellat non. Eum fugit impedit veritatis ducimus. Non qui aspernatur laudantium modi. Praesentium rerum error deserunt harum.",
-    },
-    {
-        name: "Take responsibility",
-        description:
-            "Sit minus expedita quam in ullam molestiae dignissimos in harum. Tenetur dolorem iure. Non nesciunt dolorem veniam necessitatibus laboriosam voluptas perspiciatis error.",
-    },
-    {
-        name: "Enjoy downtime",
-        description:
-            "Ipsa in earum deserunt aut. Quos minus aut animi et soluta. Ipsum dicta ut quia eius. Possimus reprehenderit iste aspernatur ut est velit consequatur distinctio.",
+          "Customers value a responsive help desk. IT's mission should be to offer accessible and responsive support channels, ensuring that customers can easily get assistance when needed."
     },
 ];
 
@@ -147,46 +148,19 @@ const About = () => {
                     <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
                         <div className="mx-auto max-w-2xl mb-24">
                             <p className="mt-2 text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">
-                                Our Mission
+                                Why Choose Us ?
                             </p>
-                            <p className="mx-auto mt-5 text-center max-w-prose text-xl text-gray-500">
-                                At our core, we are dedicated to revolutionizing
-                                payment solutions. We strive to make payments
-                                safer, faster, and more accessible for everyone
-                            </p>
+                           
                         </div>
                         <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
                             <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
                                 <p className="text-xl leading-8 text-gray-600">
-                                    Abundance is the only payments solution in
-                                    India that allows businesses to accept,
-                                    process and disburse payments with its
-                                    product suite. It gives you access to all
-                                    payment modes including credit card, debit
-                                    card, netbanking, UPI and popular wallets
-                                    including JioMoney, Mobikwik, Airtel Money,
-                                    FreeCharge, Ola Money and PayZapp.
+                                Abundance is a company in India that makes handling payments easy for businesses. They have a bunch of tools that help businesses accept money, process it, and send it to the right places. So, if you're a business, Abundance has got you covered when it comes to payments.<br></br>
+
+What's cool about Abundance is that they offer all sorts of ways for customers to pay you. Whether it's using credit cards, debit cards, online banking, or popular digital wallets like JioMoney, Mobikwik, Airtel Money, FreeCharge, Ola Money, and PayZapp, Abundance supports it all. This means that your customers have lots of choices when it comes to paying you, which is super convenient.<br></br>
+
                                 </p>
-                                <div className="mt-10 max-w-xl text-base leading-7 text-gray-700">
-                                    <p>
-                                        Trpay supercharges your business banking
-                                        experience, bringing effectiveness,
-                                        efficiency, and excellence to all
-                                        financial processes. With Trypay,
-                                        businesses can get access to
-                                        fully-functional current accounts,
-                                        supercharge their payouts and automate
-                                        payroll compliance.
-                                    </p>
-                                    <p className="mt-10">
-                                        Manage your marketplace, automate bank
-                                        transfers, collect recurring payments,
-                                        share invoices with customers and avail
-                                        working capital loans - all from a
-                                        single platform. Fast forward your
-                                        business with Abundance.
-                                    </p>
-                                </div>
+                               
                             </div>
                             <div className="lg:flex lg:flex-auto lg:justify-center">
                                 <dl className="w-64 space-y-8 xl:w-80">
