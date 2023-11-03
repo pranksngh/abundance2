@@ -32,7 +32,7 @@ const values = [
     {
         name: "Quality Service Delivery",
         description:
-            "The primary mission from a customer's viewpoint is to receive quality service. Customers expect IT to provide them with reliable and efficient technology solutions that enable them to carry out their tasks without disruptions.",
+            "The primary mission from a customers viewpoint is to receive quality service. Customers expect IT to provide them with reliable and efficient technology solutions that enable them to carry out their tasks without disruptions.",
     },
     {
         name: "User-Focused Solutions",
@@ -155,9 +155,9 @@ const About = () => {
                         <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
                             <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
                                 <p className="text-xl leading-8 text-gray-600">
-                                Abundance is a company in India that makes handling payments easy for businesses. They have a bunch of tools that help businesses accept money, process it, and send it to the right places. So, if you're a business, Abundance has got you covered when it comes to payments.<br></br>
+                                Abundance is a company in India that makes handling payments easy for businesses. They have a bunch of tools that help businesses accept money, process it, and send it to the right places. So, if you&rsquo;re a business, Abundance has got you covered when it comes to payments.<br></br>
 
-What's cool about Abundance is that they offer all sorts of ways for customers to pay you. Whether it's using credit cards, debit cards, online banking, or popular digital wallets like JioMoney, Mobikwik, Airtel Money, FreeCharge, Ola Money, and PayZapp, Abundance supports it all. This means that your customers have lots of choices when it comes to paying you, which is super convenient.<br></br>
+What&rsquo;s cool about Abundance is that they offer all sorts of ways for customers to pay you. Whether it&rsquo;s using credit cards, debit cards, online banking, or popular digital wallets like JioMoney, Mobikwik, Airtel Money, FreeCharge, Ola Money, and PayZapp, Abundance supports it all. This means that your customers have lots of choices when it comes to paying you, which is super convenient.<br></br>
 
                                 </p>
                                
