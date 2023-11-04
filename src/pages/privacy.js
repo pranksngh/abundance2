@@ -84,7 +84,7 @@ We are committed to protecting your privacy and ensuring the security of your pe
                             <ul>
                                 <li>To process payments and facilitate transactions.</li>
                                 <li>To provide customer support and respond to your inquiries.</li>
-                                <li>To analyze and enhance our Services' performance, features, and functionality.</li>
+                                <li>To analyze and enhance our Services performance, features, and functionality.</li>
                             </ul><br></br>
                             <b>2.2. Legal and Regulatory Compliance:</b><br></br>
                             <ul>
