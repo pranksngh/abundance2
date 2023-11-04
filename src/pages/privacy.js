@@ -43,229 +43,96 @@ const Privacy = () => {
                             </h1>
 
                             <p className="text-gray-500">
-                                This privacy policy (the PRIVACY POLICY) applies
-                                to your use of the website of Razorpay hosted at
-                                razorpay.com, the Services (as defined under the
-                                Razorpay Terms of Use) and Razorpay applications
-                                on mobile platforms (Android, Blackberry,
-                                Windows Phone, iOS etc.) (collectively (RAZORPAY
-                                or WEBSITE)), but does not apply to any third
-                                party websites that may be linked to them, or
-                                any relationships you may have with the
-                                businesses listed on Razorpay.
-                                <br />
-                                <br />
-                                We have implemented reasonable security
-                                practices and procedures that are commensurate
-                                with the information assets being protected and
-                                with the nature of our business. While we try
-                                our best to provide security that is better than
-                                the industry standards, because of the inherent
-                                vulnerabilities of the internet, we cannot
-                                ensure or warrant complete security of all
-                                information that is being transmitted to us by
-                                you. By visiting this Website, you agree and
-                                acknowledge to be bound by this Privacy Policy
-                                and you hereby consent that we will collect,
-                                use, process and share your Personal Information
-                                in the manner set out herein below. If you do
-                                not agree with these terms, do not use the
-                                Website.
-                                <br />
-                                <br />
-                                It is clarified that the terms and conditions
-                                that are provided separately, form an integral
-                                part of your use of this Website and should be
-                                read in conjunction with this Privacy Policy.
+                            This Privacy Policy (the "Policy") outlines the practices and policies of Abundance Private Limited ("we," "us," or "our") regarding the collection, use, and disclosure of personal information when you use our payment solution services through our website and associated services.<br></br>
+
+We are committed to protecting your privacy and ensuring the security of your personal information. Please read this Policy carefully to understand how we handle and protect your data.
+     
                             </p>
 
                             <h1 className="mt-6 mb-6 text-xl font-bold tracking-tight text-gray-700 sm:text-2xl">
-                                Information we collect and how we use it
+                            Information We Collect
                             </h1>
 
                             <p className="text-gray-500">
-                                We collect, receive and store your Personal
-                                Information. If you provide your third-party
-                                account credentials (THIRD PARTY ACCOUNT
-                                INFORMATION) to us, you understand that some
-                                content and information in those accounts may be
-                                transmitted to your account with us if you
-                                authorise such transmissions and that Third
-                                Party Account Information transmitted to us
-                                shall be covered by this Privacy Policy. You may
-                                opt to not provide us with certain information,
-                                however that will restrict you from registering
-                                with us or availing some of our features and
-                                services.
-                                <br />
-                                <br />
-                                We use commercially reasonable efforts to ensure
-                                that the collection of Personal Information is
-                                limited to that which is necessary to fulfill
-                                the purposes identified below. If we use or plan
-                                to use your information in a manner different
-                                than the purpose for which it is collected, then
-                                we will ask you for your consent prior to such
-                                use.
-                                <br />
-                                <br />
-                                The Personal Information collected will be used
-                                only for the purpose of enabling you to use the
-                                services provided by us, to help promote a safe
-                                service, calibrate consumer interest in our
-                                products and services, inform you about online
-                                offers and updates, troubleshoot problems,
-                                customize User experience, detect and protect us
-                                against error, fraud and other criminal
-                                activity, collect money, enforce our terms and
-                                conditions, and as otherwise described to you at
-                                the time of collection of such information.
+                            We may collect the following types of information when you use our Services:<br></br><br></br>
+                            <b>1.1 Personal Information</b><br></br>
+                            <ul>
+                                <li>Name</li>
+                                <li>Contact Information (email address, phone number, address)</li>
+                                <li>Payment Information (credit card, bank account details)</li>
+                                <li>Date of Birth</li>
+                                <li>Identification Information (e.g., government-issued IDs)</li>
+                                <li>Social Security Number (if required for regulatory purposes)</li>
+                                <li>Any other information you provide to us when using our Services.</li>
+
+                            </ul><br></br>
+                            <b>1.2 Non-Personal Information:</b><br></br>
+                            <ul>
+                                <li>Device and browser information (e.g., IP address, browser type, device type)</li>
+                                <li>Usage data (e.g., pages visited, actions taken within the platform)</li>
+                                <li>Cookies and similar tracking technologies (please refer to our Cookie Policy for more details).</li>
+                            </ul>
+                                                </p>
+
+                            <h1 className="mt-6 mb-6 text-xl font-bold tracking-tight text-gray-700 sm:text-2xl">
+                            How We Use Your Information
+                            </h1>
+
+                            <p className="text-gray-500">
+                            We use your information for the following purposes:<br></br><br></br>
+                            <b>2.1. Providing and Improving Our Services:</b><br></br>
+                            <ul>
+                                <li>To process payments and facilitate transactions.</li>
+                                <li>To provide customer support and respond to your inquiries.</li>
+                                <li>To analyze and enhance our Services' performance, features, and functionality.</li>
+                            </ul><br></br>
+                            <b>2.2. Legal and Regulatory Compliance:</b><br></br>
+                            <ul>
+                                <li>To comply with legal obligations and regulations, including anti-fraud measures.</li>
+                                <li>To investigate and prevent fraudulent activities and security breaches.</li>
+                            </ul><br></br>
+                            <b>2.3. Communication:</b><br></br>
+                            <ul>
+                                <li>To send you transactional and operational emails related to your account and transactions.</li>
+                                <li>To send you marketing communications if you have opted in or subscribed to receive them. </li>
+                                <li>You can opt out at any time by following the instructions in those communications.</li>
+                            </ul>
                             </p>
 
                             <h1 className="mt-6 mb-6 text-xl font-bold tracking-tight text-gray-700 sm:text-2xl">
-                                Account information of Merchants
+                            How We Share Your Information
                             </h1>
 
                             <p className="text-gray-500">
-                                If you create an account to take advantage of
-                                the full range of services offered on Razorpay,
-                                we ask for and record Personal Information such
-                                as your name, email address and mobile number.
-                                We may collect and store your Sensitive Personal
-                                Data or Information (such as any financial
-                                information including inter alia credit card,
-                                debit card details, bank account and know your
-                                customer (KYC) documents as per RBI regulations
-                                and any other information as may be applicable)
-                                that the User may opt to save in the User
-                                account created with Razorpay]. We use your
-                                email address to send you updates, news, and
-                                newsletters (if you willingly subscribe to the
-                                newsletter during signup, or anytime after
-                                signup) and contact you on behalf of other Users
-                                (such other Users who send you friend requests,
-                                personal messages, or other social collaboration
-                                based events). [If you do not want to receive
-                                communications from us that are not relevant to
-                                you or your use of our services, please click on
-                                the unsubscribe link provided at the bottom of
-                                such e-mails sent to you by us. We use your
-                                mobile numbers to send you transaction alerts
-                                and SMS alerts based on your preferences. If you
-                                do not wish to receive such SMSs from us, please
-                                notify us at razorpay.com/support to stop
-                                receiving SMSs from us. Razorpay assures that
-                                your Personal Information will not be made
-                                public or sold to any third party.
-                                <br />
-                                <br />
-                                The User shall have an option to erase any
-                                information provided by the User including
-                                Personal Information. If a User opts for the
-                                said option of erasure, Razorpay shall delete
-                                all stored information of the User from its
-                                servers.
+                            We may share your information under the following circumstances:<br></br><br></br>
+                            <b>3.1. Service Providers:</b><br></br>
+                            We may share your information with trusted third-party service providers who assist us in providing the Services (e.g., payment processors, fraud prevention services, and customer support services). These providers are contractually bound to protect your information.<br></br><br></br>
+                            <b>3.2. Legal Compliance:</b><br></br>
+                            We may share your information to comply with legal requirements, respond to legal requests, and protect our rights, privacy, safety, or property.<br></br><br></br>
+                            <b>3.3. Business Transfers:</b><br></br>
+                            In the event of a merger, acquisition, sale of assets, or bankruptcy, your information may be transferred to another entity. We will notify you if such a transfer occurs.
+
                             </p>
 
                             <h1 className="mt-6 mb-6 text-xl font-bold tracking-tight text-gray-700 sm:text-2xl">
-                                Customer Information
+                            Your Privacy Choices
                             </h1>
 
                             <p className="text-gray-500">
-                                We also store customer information of customers
-                                such as address, mobile number, Third Party
-                                Wallet details, Card Details and email address
-                                making payments through Razorpay checkouts.
-                                However, only when customer chooses to share the
-                                information on the businesses powered with
-                                Razorpay applications we share the information
-                                to respective businesses. However, Razorpay is
-                                not liable in any way for any misuse of this
-                                information by the business or people related to
-                                the businesses to whom the information is shared
-                                by the customer.
+                              <b>4.1. Access and Correction:</b><br></br>
+                              You have the right to access and correct your personal information. You can review and update your account information through our website.<br></br><br></br>
+                              <b>4.2. Opt-Out:</b><br></br>
+                              You can opt out of receiving marketing communications at any time by following the instructions provided in those communications or by contacting us.<br></br><br></br>
+                              <b>4.3. Data Retention:</b><br></br>
+                              We retain your information for as long as necessary to provide the Services and as required by law. If you wish to have your information deleted, please contact us.
                             </p>
 
                             <h1 className="mt-6 mb-6 text-xl font-bold tracking-tight text-gray-700 sm:text-2xl">
-                                Activity
+                            Security
                             </h1>
 
                             <p className="text-gray-500">
-                                We record information relating to your use of
-                                Razorpay, such as the searches you undertake,
-                                the pages you view, your browser type, IP
-                                address, location, requested URL, referring URL,
-                                and timestamp information. We use this type of
-                                information to administer Razorpay and provide
-                                the highest possible level of security and
-                                service to you. We also use this information in
-                                the aggregate to perform statistical analyses of
-                                User behavior and characteristics in order to
-                                measure interest in and use of the various areas
-                                of Razorpay. However, you cannot be identified
-                                from this aggregate information.
-                                <br />
-                                <br />
-                                We own all the intellectual property rights
-                                associated with the Website and its contents. No
-                                right, title or interest in any downloaded
-                                material is transferred to you as a result of
-                                any such downloading or copying. The Website is
-                                protected by copyright as a collective work and/
-                                or compilation (meaning the collection,
-                                arrangement, and assembly) of all the content on
-                                this Website, pursuant to applicable law.
-                                <br />
-                                <br />
-                                Our logos, product and service marks and/ or
-                                names, trademarks, copyrights and other
-                                intellectual property, whether registered or not
-                                (OUR IP) are exclusively owned by us. Without
-                                our prior written permission, you agree to not
-                                display and/ or use Our IP in any manner.
-                                Nothing contained in this Website or the
-                                content, should be construed as granting, in any
-                                way to the User, any license or right or
-                                interest whatsoever, in and/ or to Our IP,
-                                without our express written permission.
-                            </p>
-
-                            <h1 className="mt-6 mb-6 text-xl font-bold tracking-tight text-gray-700 sm:text-2xl">
-                                Cookies
-                            </h1>
-
-                            <p className="text-gray-500">
-                                We send cookies to your computer in order to
-                                uniquely identify your browser and improve the
-                                quality of our service. The term cookies refers
-                                to small pieces of information that a website
-                                sends to your computers hard drive while you are
-                                viewing the site. We may use both session
-                                cookies (which expire once you close your
-                                browser) and persistent cookies (which stay on
-                                your computer until you delete them). Persistent
-                                cookies can be removed by following your browser
-                                help file directions. If you choose to disable
-                                cookies, some areas of Razorpay may not work
-                                properly or at all. Razorpay uses third party
-                                tools, who may collect anonymous information
-                                about your visits to Razorpay using cookies, and
-                                interaction with Razorpay products and services.
-                                Such third parties may also use information
-                                about your visits to Razorpay products and
-                                services and other web sites to target
-                                advertisements for Razorpays products and
-                                services. No Personal Information is collected
-                                or used in this process. These third parties do
-                                not know or have access to the name, phone
-                                number, address, email address, or any Personal
-                                Information about Razorpays Users. Razorpay
-                                Users can opt-out of sharing this information
-                                with third parties by deactivating cookies, the
-                                process of which varies from browser to browser.
-                                Please refer to the help file of your browser to
-                                understand the process of deactivating cookies
-                                on your browser.
+                               We employ industry-standard security measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction.
                             </p>
 
                             <h1 className="mt-6 mb-6 text-xl font-bold tracking-tight text-gray-700 sm:text-2xl">
@@ -273,53 +140,23 @@ const Privacy = () => {
                             </h1>
 
                             <p className="text-gray-500">
-                                Your account is password protected. We use
-                                industry standard measures to protect the
-                                Personal Information that is stored in our
-                                database. We follow industry standard best
-                                practices on Information Security, as also
-                                mentioned in our website. We limit the access to
-                                your Personal Information to those employees and
-                                contractors who need access to perform their job
-                                function, such as our customer service
-                                personnel. If you have any questions about the
-                                security on Razorpay, please contact us at
-                                disclosures@razorpay.com.
-                                <br />
-                                <br />
-                                You hereby acknowledge that Razorpay is not
-                                responsible for any intercepted information sent
-                                via the internet, and you hereby release us from
-                                any and all claims arising out of or related to
-                                the use of intercepted information in any
-                                unauthorized manner.
+                            We employ industry-standard security measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction.
                             </p>
 
                             <h1 className="mt-6 mb-6 text-xl font-bold tracking-tight text-gray-700 sm:text-2xl">
-                                Terms and modifications to this Privacy Policy
+                            Changes to this Policy
                             </h1>
 
                             <p className="text-gray-500">
-                                Our Privacy Policy is subject to change at any
-                                time without notice. To make sure you are aware
-                                of any changes, please review this policy
-                                periodically. These changes will be effective
-                                immediately on the Users of Razorpay. Please
-                                note that at all times you are responsible for
-                                updating your Personal Information, including to
-                                provide us with your most current e-mail
-                                address.
-                                <br />
-                                <br />
-                                If you do not wish to permit changes in our use
-                                of your Personal Information, you must notify us
-                                promptly that you wish to deactivate your
-                                account with us. Continued use of Razorpay after
-                                any change/ amendment to this Privacy Policy
-                                shall indicate your acknowledgement of such
-                                changes and agreement to be bound by the terms
-                                and conditions of such changes.
+                            We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any material changes by posting the updated Policy on our website.
                             </p>
+                            
+                            <h1 className="mt-6 mb-6 text-xl font-bold tracking-tight text-gray-700 sm:text-2xl">
+                            Contact Us
+                            </h1>
+                            <p className="text-gray-500">
+                            If you have any questions, concerns, or requests related to this Privacy Policy or your personal information, please contact us.
+                                </p>
                         </div>
                     </div>
 
