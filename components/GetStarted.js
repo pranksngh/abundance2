@@ -1,7 +1,10 @@
 import CircleBackground from "@/components/CircleBackground";
 import { Container } from "@/components/Container";
+import { useRouter } from "next/router";
 
 const GetStarted = () => {
+
+    const router = useRouter();
     return (
         <section
             id="get-free-shares-today"
@@ -26,7 +29,9 @@ const GetStarted = () => {
 
                     <div className="mt-8 flex justify-center">
                         <button
-                            type="submit"
+                            onClick={() => {
+                                router.push("/contact");
+                            }}
                             className="block w-[160px] rounded-md bg-primary px-4 py-3 font-medium text-white shadow outline-none hover:bg-secondary hover:text-gray-900 transition-all"
                         >
                             Get Started

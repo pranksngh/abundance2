@@ -85,9 +85,9 @@ const Contact = () => {
                                 <dd>
                                     <a
                                         className="hover:text-white"
-                                        href="mailto:hello@example.com"
+                                        href="mailto:contact@abundance.com"
                                     >
-                                        hello@example.com
+                                        contact@abundance.com
                                     </a>
                                 </dd>
                             </div>
