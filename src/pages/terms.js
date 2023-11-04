@@ -133,7 +133,8 @@ const Terms = () => {
                             </h1>
 
                             <p className="text-gray-500">
-                          If you have any questions, concerns, or requests related to these Terms & Conditions, please contact us </p>
+                          If you have any questions, concerns, or requests related to these Terms & Conditions, please contact us
+                           </p>
                             
                         </div>
                     </div>
