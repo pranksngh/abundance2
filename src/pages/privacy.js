@@ -43,7 +43,7 @@ const Privacy = () => {
                             </h1>
 
                             <p className="text-gray-500">
-                            This Privacy Policy (the "Policy") outlines the practices and policies of Abundance Private Limited ("we," "us," or "our") regarding the collection, use, and disclosure of personal information when you use our payment solution services through our website and associated services.<br></br>
+                            This Privacy Policy (the &rdquo;Policy&rdquo;) outlines the practices and policies of Abundance Private Limited (&rdquo;we,&rdquo; &rdquo;us,&rdquo; or &rdquo;our&rdquo;) regarding the collection, use, and disclosure of personal information when you use our payment solution services through our website and associated services.<br></br>
 
 We are committed to protecting your privacy and ensuring the security of your personal information. Please read this Policy carefully to understand how we handle and protect your data.
      
