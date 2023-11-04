@@ -113,7 +113,7 @@ const Footer = () => {
                                         </dt>
                                         <dd>
                                             <a
-                                                className="hover:text-white"
+                                                className="hover:text-black"
                                                 href="tel:+1 (555) 234-5678"
                                             >
                                                 +1 (555) 234-5678
@@ -132,7 +132,7 @@ const Footer = () => {
                                         </dt>
                                         <dd>
                                             <a
-                                                className="hover:text-white"
+                                                className="hover:text-black"
                                                 href="mailto:hello@example.com"
                                             >
                                                 contact@abundance.com
