@@ -12,7 +12,7 @@ import { GridPattern } from "./GridPattern";
 
 const features = [
     {
-        name: "Paymen Links",
+        name: "Payment Links",
         description:
             "Share payment link via an email, SMS, messenger, chatbot etc. and get paid immediately",
         icon: CloudArrowUpIcon,
