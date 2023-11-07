@@ -50,11 +50,10 @@ const Footer = () => {
                             integration
                         </p>
                         <div className="flex space-x-6">
-                            <FacebookIcon className="text-gray-400 hover:text-gray-500 cursor-pointer" />
-                            <InstagramIcon className="text-gray-400 hover:text-gray-500 cursor-pointer" />
-                            <TwitterIcon className="text-gray-400 hover:text-gray-500 cursor-pointer" />
-                            <TelegramIcon className="text-gray-400 hover:text-gray-500 cursor-pointer" />
-                        </div>
+                            <a href="https://www.facebook.com/profile.php?id=61552225648932"><FacebookIcon  className="text-gray-400 hover:text-gray-500 cursor-pointer" /></a>
+                            <a href="https://www.instagram.com/trypayofficial?igshid=NGVhN2U2NjQ0Yg%3D%3D"><InstagramIcon className="text-gray-400 hover:text-gray-500 cursor-pointer" /></a>
+                           <a href="https://twitter.com/Trypayoffical" ><TwitterIcon className="text-gray-400 hover:text-gray-500 cursor-pointer" /></a>
+                            </div>
                     </div>
                     <div className="mt-12 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
                         <div className="md:grid md:grid-cols-2 md:gap-8">
@@ -94,7 +93,7 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div className="md:grid md:grid-cols-2 md:gap-8">
+                        <div className="md:grid md:grid-cols-1 md:gap-8">
                             <div className="mt-12 md:mt-0">
                                 <h3 className="text-base font-medium text-gray-900">
                                     Contact Info
@@ -102,23 +101,18 @@ const Footer = () => {
 
                                 <dl className="mt-4 space-y-4 text-base leading-7 text-gray-500">
                                     <div className="flex gap-x-4">
-                                        <dt className="flex-none">
-                                            <span className="sr-only">
-                                                Telephone
-                                            </span>
-                                            <PhoneIcon
-                                                className="h-7 w-6"
-                                                aria-hidden="true"
-                                            />
-                                        </dt>
-                                        <dd>
-                                            <a
-                                                className="hover:text-black"
-                                                href="tel:+1 (555) 234-5678"
-                                            >
-                                                +1 (555) 234-5678
-                                            </a>
-                                        </dd>
+                                    <dt className="flex-none">
+                                    <span className="sr-only">Address</span>
+                                    <BuildingOffice2Icon
+                                        className="h-7 w-6 text-gray-400"
+                                        aria-hidden="true"
+                                    />
+                                </dt>
+                                <dd>
+                                N NO 150, O NO 231 SUNSHINE, GARDEN APART ROYAPET, 
+                                    <br />
+                                    ROYAPETTAH, CHENNAI, CHENNAI-600014, TAMIL NADU
+                                </dd>
                                     </div>
                                     <div className="flex gap-x-4">
                                         <dt className="flex-none">

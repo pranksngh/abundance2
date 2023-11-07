@@ -6,6 +6,8 @@ import Image from "next/image";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 import logoIcon from "../public/images/logo-icon.png";
+
+import trypayIcon from "../public/images/main-logo.png";
 import logo from "../public/images/logo.png";
 
 const Navbar = () => {
@@ -80,7 +82,7 @@ const Navbar = () => {
                                     >
                                         <div className="flex items-center mb-2">
                                             <Image
-                                                src={logoIcon}
+                                                src={trypayIcon}
                                                 alt="trypay"
                                                 width={18}
                                                 className="mr-2"

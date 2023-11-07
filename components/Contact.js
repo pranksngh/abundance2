@@ -52,9 +52,9 @@ const Contact = () => {
                                     />
                                 </dt>
                                 <dd>
-                                    545 Mavis Island
+                                N NO 150, O NO 231 SUNSHINE, GARDEN APART ROYAPET, 
                                     <br />
-                                    Chicago, IL 99191
+                                    ROYAPETTAH, CHENNAI, CHENNAI-600014, TAMIL NADU
                                 </dd>
                             </div>
                             <div className="flex gap-x-4">
