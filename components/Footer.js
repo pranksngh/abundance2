@@ -109,9 +109,9 @@ const Footer = () => {
                                     />
                                 </dt>
                                 <dd>
-                                N NO 150, O NO 231 SUNSHINE, GARDEN APART ROYAPET, 
+                                150,  SUNSHINE, GARDEN APART ROYAPET, 
                                     <br />
-                                    ROYAPETTAH, CHENNAI, CHENNAI-600014, TAMIL NADU
+                                    ROYAPETTAH, CHENNAI-600014, TAMIL NADU
                                 </dd>
                                     </div>
                                     <div className="flex gap-x-4">
@@ -129,7 +129,7 @@ const Footer = () => {
                                                 className="hover:text-black"
                                                 href="mailto:hello@example.com"
                                             >
-                                                contact@abundance.com
+                                                contact@abundancepaymentsolution.com
                                             </a>
                                         </dd>
                                     </div>
