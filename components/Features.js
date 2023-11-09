@@ -1,4 +1,5 @@
 import React from "react";
+import { useRef } from 'react';
 import {
     ArrowPathIcon,
     CloudArrowUpIcon,
@@ -50,8 +51,9 @@ const features = [
 ];
 
 const Features = () => {
+    const featuresRef = useRef();
     return (
-        <div className="relative bg-transparent py-16 sm:py-24 lg:py-32">
+        <div ref={featuresRef} className="relative bg-transparent py-16 sm:py-24 lg:py-32">
             <div className="absolute inset-x-0 top-0 h-[884px] overflow-hidden rounded-t-4xl bg-gradient-to-b from-neutral-50 z-0">
                 <GridPattern
                     className="absolute inset-0 h-full w-full fill-neutral-100 stroke-gray-200 [mask-image:linear-gradient(to_bottom_left,white_40%,transparent_50%)]"

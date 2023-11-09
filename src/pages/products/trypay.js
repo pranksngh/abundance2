@@ -35,7 +35,9 @@ const trypay = () => {
                     <PartnersSlider />
 
                     {/* FAQS section */}
+                    <a id="faqsection">
                     <FAQS />
+                    </a>
 
                     {/* team section */}
                     <Team title={"Team behind Trypay"} />

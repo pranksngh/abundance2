@@ -11,11 +11,18 @@ import Testimonial from "@/components/Testimonial";
 import GetStarted from "@/components/GetStarted";
 import Team from "@/components/Team";
 import PartnersSlider from "@/components/PartnersSlider";
+import { useRef } from 'react';
+import { Element } from 'react-scroll';
 
 const Home = () => {
     const [isScrollToTopBtn, setIsScrollToTopBtn] = useState();
 
+    const featuresRef = useRef(null);
+
     const router = useRouter();
+    const scrollToFeatures = () => {
+        featuresRef.current.scrollIntoView({ behavior: 'smooth' });
+      };
 
     const scrollToTop = () => {
         window.scrollTo({
@@ -51,7 +58,7 @@ const Home = () => {
             <div className="bg-white">
                 <div className="relative overflow-hidden">
                     {/* navbar section */}
-                    <Navbar />
+                    <Navbar scrollToFeatures={scrollToFeatures} />
 
                     {/* hero section */}
                     <main>
@@ -111,7 +118,9 @@ const Home = () => {
                         </div>
 
                         {/* Feature section with grid */}
-                        <Features />
+                        <a id="features">
+                        <Features/>
+                       </a>
 
                         {/* Get started section */}
                         <GetStarted />

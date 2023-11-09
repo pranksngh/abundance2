@@ -9,8 +9,9 @@ import logoIcon from "../public/images/logo-icon.png";
 
 import trypayIcon from "../public/images/main-logo.png";
 import logo from "../public/images/logo.png";
+import { Link as ScrollLink } from 'react-scroll';
 
-const Navbar = () => {
+const Navbar = ({ scrollToFeatures }) => {
     const router = useRouter();
 
     const productsModalRef = useRef(null);
@@ -122,7 +123,7 @@ const Navbar = () => {
                             </div>
 
                             <Link
-                                href={"/#features"}
+                                href="/#features"
                                 className="text-base font-medium text-white hover:text-gray-300"
                             >
                                 Features
@@ -142,7 +143,7 @@ const Navbar = () => {
                                 Contact Us
                             </Link>
                             <Link
-                                href={"/products/trypay/"}
+                                href={"/products/trypay/#faqsection"}
                                 className="text-base font-medium text-white hover:text-gray-300"
                             >
                                 FAQ
