@@ -79,7 +79,7 @@ const Home = () => {
                                                 </span>
                                             </h1>
                                             <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
-                                                Abundance Payment Solution, was
+                                                Abundance Payment Solutions, was
                                                 founded in 2023. We are a
                                                 leading fintech company
                                                 dedicated to simplifying online
@@ -87,7 +87,7 @@ const Home = () => {
                                                 providing secure and efficient
                                                 UPI payment solutions, we aim to
                                                 make digital transactions a
-                                                breeze
+                                                breeze.
                                             </p>
                                             <div className="flex justify-center mt-6 sm:mt-8 lg:justify-start">
                                                 <button

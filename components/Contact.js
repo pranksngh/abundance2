@@ -3,10 +3,40 @@ import {
     EnvelopeIcon,
     PhoneIcon,
 } from "@heroicons/react/24/outline";
+import React, { useState } from 'react'; 
 
 import { GridPattern } from "./GridPattern";
 
 const Contact = () => {
+
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        const data = { name, email, message };
+        try {
+          const response = await fetch('/send-email', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+          });
+          if (response.ok) {
+            alert('Email sent successfully');
+            setName('');
+            setEmail('');
+            setMessage('');
+          } else {
+            alert('Error sending email');
+          }
+        } catch (error) {
+          console.error(error);
+          alert('Error sending email');
+        }
+      };
+    
     return (
         <div className="relative isolate bg-gray-900">
             <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
@@ -95,7 +125,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <form
-                    action="#"
+                    onSubmit={handleSubmit}
                     method="POST"
                     className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48"
                 >
@@ -110,6 +140,7 @@ const Contact = () => {
                                 </label>
                                 <div className="mt-2.5">
                                     <input
+                                        value={name}
                                         type="text"
                                         name="first-name"
                                         id="first-name"
@@ -146,6 +177,7 @@ const Contact = () => {
                                     <input
                                         type="email"
                                         name="email"
+                                        value={email}
                                         id="email"
                                         autoComplete="email"
                                         className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6 outline-none"
@@ -180,6 +212,7 @@ const Contact = () => {
                                     <textarea
                                         name="message"
                                         id="message"
+                                        value={message}
                                         rows={4}
                                         className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6 outline-none"
                                         defaultValue={""}
