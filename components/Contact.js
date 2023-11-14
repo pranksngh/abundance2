@@ -6,12 +6,29 @@ import {
 import React, { useState } from 'react'; 
 
 import { GridPattern } from "./GridPattern";
+import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
 
 const Contact = () => {
 
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_un420tv', 'template_61fpms9', form.current, 'B5a23vDh7rP_CsmnA')
+        .then((result) => {
+            alert('Email sent successfully');
+        }, (error) => {
+            alert(error.text);
+        });
+    };
+
+
     const handleSubmit = async (e) => {
         e.preventDefault();
         const data = { name, email, message };
@@ -125,8 +142,8 @@ const Contact = () => {
                     </div>
                 </div>
                 <form
-                    onSubmit={handleSubmit}
-                    method="POST"
+                    ref={form} onSubmit={sendEmail}
+                                    
                     className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48"
                 >
                     <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
@@ -140,7 +157,7 @@ const Contact = () => {
                                 </label>
                                 <div className="mt-2.5">
                                     <input
-                                        value={name}
+                                      
                                         type="text"
                                         name="first-name"
                                         id="first-name"
@@ -177,7 +194,6 @@ const Contact = () => {
                                     <input
                                         type="email"
                                         name="email"
-                                        value={email}
                                         id="email"
                                         autoComplete="email"
                                         className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6 outline-none"
@@ -212,7 +228,6 @@ const Contact = () => {
                                     <textarea
                                         name="message"
                                         id="message"
-                                        value={message}
                                         rows={4}
                                         className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6 outline-none"
                                         defaultValue={""}

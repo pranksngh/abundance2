@@ -27,16 +27,7 @@ const GetStarted = () => {
                         pay
                     </p>
 
-                    <div className="mt-8 flex justify-center">
-                        <button
-                            onClick={() => {
-                                router.push("/contact");
-                            }}
-                            className="block w-[160px] rounded-md bg-primary px-4 py-3 font-medium text-white shadow outline-none hover:bg-secondary hover:text-gray-900 transition-all"
-                        >
-                            Get Started
-                        </button>
-                    </div>
+                   
                 </div>
             </Container>
         </section>
