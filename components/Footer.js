@@ -114,7 +114,7 @@ const Footer = () => {
                                     ROYAPETTAH, CHENNAI-600014, TAMIL NADU
                                 </dd>
                                     </div>
-                                    <div className="flex gap-x-4">
+                                    <div className="flex gap-x-3">
                                         <dt className="flex-none">
                                             <span className="sr-only">
                                                 Email

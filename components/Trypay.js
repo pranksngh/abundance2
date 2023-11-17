@@ -66,14 +66,7 @@ const Trypay = () => {
                                         streamline their online transactions
                                     </p>
 
-                                    <div className="flex justify-center mt-6 sm:mt-8 lg:justify-start">
-                                        <button
-                                            type="submit"
-                                            className="block w-[160px] rounded-md bg-primary px-4 py-3 font-medium text-white shadow outline-none hover:bg-secondary hover:text-gray-900 transition-all"
-                                        >
-                                            Sign Up Now
-                                        </button>
-                                    </div>
+                                  
                                 </div>
                             </div>
                             <div className="flex justify-center lg:justify-end mt-16 sm:mt-24 lg:col-span-6 lg:mt-0 z-10">

@@ -14,7 +14,7 @@ const PartnersSlider = () => {
     return (
         <>
             <p className="mx-auto mt-5 text-center max-w-prose text-xl text-gray-500 mb-12">
-                Trusted by 30,000+ businesses
+                Trusted by 100+ businesses
             </p>
             <div className="overflow-hidden whitespace-nowrap mb-12">
                 <div className="flex items-center justify-around logoContainer">
