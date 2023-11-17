@@ -37,7 +37,7 @@ const Team = ({ title }) => {
                         {"Meet Our Team"}
                     </p>
                     <p className="mx-auto mt-5 max-w-prose text-xl text-gray-500">
-                       With Over 50+ Years of combined experience, We&rsquo;ve got a best team
+                       With Over 10+ Years of combined experience, We&rsquo;ve got a best team
                     </p>
                 </div>
                 <ul

@@ -29,30 +29,7 @@ const Contact = () => {
     };
 
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        const data = { name, email, message };
-        try {
-          const response = await fetch('/send-email', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(data),
-          });
-          if (response.ok) {
-            alert('Email sent successfully');
-            setName('');
-            setEmail('');
-            setMessage('');
-          } else {
-            alert('Error sending email');
-          }
-        } catch (error) {
-          console.error(error);
-          alert('Error sending email');
-        }
-      };
+   
     
     return (
         <div className="relative isolate bg-gray-900">

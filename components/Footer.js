@@ -120,14 +120,14 @@ const Footer = () => {
                                                 Email
                                             </span>
                                             <EnvelopeIcon
-                                                className="h-7 w-6"
+                                                className="h-7 w-63"
                                                 aria-hidden="true"
                                             />
                                         </dt>
                                         <dd>
                                             <a
                                                 className="hover:text-black"
-                                                href="mailto:hello@example.com"
+                                                href="mailto: contact@abundancepaymentsolution.com"
                                             >
                                                 contact@abundancepaymentsolution.com
                                             </a>
