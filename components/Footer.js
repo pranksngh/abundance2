@@ -12,6 +12,7 @@ import {
 } from "@heroicons/react/24/outline";
 
 import logo from "../public/images/logo.png";
+import { LinkedIn } from "@mui/icons-material";
 
 const footerNavigation = {
     solutions: [
@@ -53,6 +54,8 @@ const Footer = () => {
                             <a href="https://www.facebook.com/profile.php?id=61552225648932"><FacebookIcon  className="text-gray-400 hover:text-gray-500 cursor-pointer" /></a>
                             <a href="https://www.instagram.com/trypayofficial?igshid=NGVhN2U2NjQ0Yg%3D%3D"><InstagramIcon className="text-gray-400 hover:text-gray-500 cursor-pointer" /></a>
                            <a href="https://twitter.com/Trypayoffical" ><TwitterIcon className="text-gray-400 hover:text-gray-500 cursor-pointer" /></a>
+                           <a href="https://www.linkedin.com/posts/try-pay-15205b295_finance-fintechstartup-paytm-activity-7125504939358834688-GGTY" ><LinkedIn className="text-gray-400 hover:text-gray-500 cursor-pointer" /></a>
+               
                             </div>
                     </div>
                     <div className="mt-12 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
@@ -119,6 +122,22 @@ const Footer = () => {
                                             <span className="sr-only">
                                                 Email
                                             </span>
+                                            <PhoneIcon
+                                                className="h-7 w-63"
+                                                aria-hidden="true"
+                                            />
+                                        </dt>
+                                        <dd>
+                                           
+                                        +91 931-049-0276
+                                        
+                                        </dd>
+                                    </div>
+                                    <div className="flex gap-x-3">
+                                        <dt className="flex-none">
+                                            <span className="sr-only">
+                                                Email
+                                            </span>
                                             <EnvelopeIcon
                                                 className="h-7 w-63"
                                                 aria-hidden="true"
@@ -133,6 +152,7 @@ const Footer = () => {
                                             </a>
                                         </dd>
                                     </div>
+                                   
                                 </dl>
                             </div>
                         </div>
