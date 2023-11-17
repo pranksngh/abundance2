@@ -9,9 +9,9 @@ import about4 from "../public/images/about4.avif";
 import about5 from "../public/images/about5.avif";
 
 const stats = [
-    { label: "Transactions every 24 hours", value: "44 million" },
-    { label: "Assets under holding", value: "$119 trillion" },
-    { label: "New users annually", value: "46,000" },
+    { label: "Transactions every 24 hours", value: "10 Million" },
+    { label: "Transactions every week", value: "70 Million" },
+    { label: "New users annually", value: "1 Million" },
 ];
 const values = [
     {
@@ -83,7 +83,7 @@ const About = () => {
                                         providing clean, developer-friendly APIs
                                         and hassle-free integration. We offer a
                                         fast, affordable and secure way for
-                                        merchants, schools, ecommerce and other
+                                        merchants, schools, e-commerce and other
                                         companies to accept and disburse
                                         payments online, own a fully-functional
                                         current account and avail working

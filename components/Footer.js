@@ -44,17 +44,17 @@ const Footer = () => {
                         />
 
                         <p className="text-base text-gray-500">
-                            Making the World a Better Place Through Seamless and
-                            Secure Payments. Abundance aims to revolutionize
+                            Making the world a better place through seamless and
+                            secure payments. Abundance aims to revolutionize
                             money management for online businesses by providing
                             clean, developer-friendly APIs and hassle-free
-                            integration
+                            integration.
                         </p>
                         <div className="flex space-x-6">
                             <a href="https://www.facebook.com/profile.php?id=61552225648932"><FacebookIcon  className="text-gray-400 hover:text-gray-500 cursor-pointer" /></a>
                             <a href="https://www.instagram.com/trypayofficial?igshid=NGVhN2U2NjQ0Yg%3D%3D"><InstagramIcon className="text-gray-400 hover:text-gray-500 cursor-pointer" /></a>
                            <a href="https://twitter.com/Trypayoffical" ><TwitterIcon className="text-gray-400 hover:text-gray-500 cursor-pointer" /></a>
-                           <a href="https://www.linkedin.com/posts/try-pay-15205b295_finance-fintechstartup-paytm-activity-7125504939358834688-GGTY" ><LinkedIn className="text-gray-400 hover:text-gray-500 cursor-pointer" /></a>
+                           <a href="https://www.linkedin.com/posts/try-pay-15205b295_finance-fintechstartup-paytm-activity-7122971182785605632-UoX2/?utm_source=share&utm_medium=member_ios" ><LinkedIn className="text-gray-400 hover:text-gray-500 cursor-pointer" /></a>
                
                             </div>
                     </div>

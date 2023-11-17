@@ -63,7 +63,7 @@ const Trypay = () => {
                                         payment experience for websites and
                                         apps. It is the ideal solution for
                                         businesses and individuals looking to
-                                        streamline their online transactions
+                                        streamline their online transactions.
                                     </p>
 
                                   
