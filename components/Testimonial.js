@@ -86,7 +86,7 @@ const reviews = [
     {
         title: "Don’t download this app",
         body: "Our customers have commended us for using Abundance pay. It's elevated our brand reputation.",
-        author: "JeffBezos",
+        author: "Mark",
         rating: 5,
     },
 ];
