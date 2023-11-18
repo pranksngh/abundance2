@@ -248,17 +248,7 @@ const Navbar = ({ scrollToFeatures }) => {
                                     Get In Touch
                                 </button>
                             </div>
-                            <div className="mt-6 px-5">
-                                <p className="text-center text-base font-medium text-gray-500">
-                                    New customer?{" "}
-                                    <a
-                                        href="#"
-                                        className="text-gray-900 hover:underline"
-                                    >
-                                        Learn More
-                                    </a>
-                                </p>
-                            </div>
+                           
                         </div>
                     </div>
                 </Popover.Panel>
