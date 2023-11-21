@@ -12,39 +12,39 @@ const reviews = [
   // Your reviews data here
   {
     title: "It really works.",
-    body: "Abundance pay has made our transactions so smooth. Don't even need to think twice before using it. Highly recommended!.",
+    body: "Abundance Payment Products has made our transactions so smooth. Don't even need to think twice before using it. Highly recommended!.",
     author: "Rahul Kumar",
     rating: 5,
 },
 {
     title: "I love it!",
-    body: "The speed at which Abundance pay processes payments is unmatched. It has made a significant impact on our customer satisfaction.",
+    body: "The speed at which Abundance Payment Products processes payments is unmatched. It has made a significant impact on our customer satisfaction.",
     author: "Kapil Singh",
     rating: 5,
 },
 {
     title: "Too good to be true.",
-    body: "We trust Abundance pay for all our online transactions. The security measures are top-notch.",
+    body: "We trust Abundance Payment Products for all our online transactions. The security measures are top-notch.",
     author: "Mark",
     rating: 5,
 },
 {
     title: "Amazing Experience",
-    body: "Using Abundance pay has been a breeze. We've seen a significant increase in our online sales since integrating it.",
+    body: "Using Abundance Payment Products has been a breeze. We've seen a significant increase in our online sales since integrating it.",
     author: "Douglas",
     rating: 5,
 },
 
 {
     title: "No more debt!",
-    body: "With Abundance pay, we no longer worry about payment-related challenges. It's a stress-free solution.",
+    body: "With Abundance Payment Products, we no longer worry about payment-related challenges. It's a stress-free solution.",
     author: "Naveen",
     rating: 5,
 },
 
 {
     title: "It’s like a superpower.",
-    body: "We've seen a decrease in payment errors and disputes since using Abundance pay. It's a win for both us and our customers.",
+    body: "We've seen a decrease in payment errors and disputes since using Abundance Payment Products. It's a win for both us and our customers.",
     author: "Clark",
     rating: 5,
 },
