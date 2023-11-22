@@ -1,7 +1,7 @@
 import { GridPattern } from "./GridPattern";
 import Image from "next/image";
 
-import member1 from "../public/images/team1.png";
+import member1 from "../public/images/team3.jpg";
 import member2 from "../public/images/team2.png";
 
 const people = [
