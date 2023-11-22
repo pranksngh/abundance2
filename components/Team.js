@@ -7,17 +7,17 @@ import member2 from "../public/images/team2.png";
 const people = [
     {
         name: "Yam Bahadur P",
-        role: "",
+        role: "Director",
         imageUrl: member1,
-        twitterUrl: "#",
-        linkedinUrl: "#",
+        twitterUrl: "https://twitter.com/YamBahadurpuran",
+        linkedinUrl: "https://www.linkedin.com/in/yam-bahadur-puran-413b872a0?trk=contact-info"
     },
     {
         name: "A Lokesh",
-        role: "",
+        role: "Director",
         imageUrl: member2,
-        twitterUrl: "#",
-        linkedinUrl: "#",
+        twitterUrl: "https://twitter.com/Lokeshannamalai",
+        linkedinUrl: "https://www.linkedin.com/in/lokesh-annamalai-800b852a0?trk=contact-infol",
     },
     // More people...
 ];
