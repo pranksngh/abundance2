@@ -129,7 +129,7 @@ const Footer = () => {
                                     aria-hidden="true"
                                 />
                             </dt>
-                            <dd>+91 931-049-0276</dd>
+                            <dd>+91 72007360136</dd>
                         </div>
                         <div className="flex gap-x-3">
                             <dt className="flex-none">

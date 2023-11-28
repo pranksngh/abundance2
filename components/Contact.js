@@ -92,9 +92,9 @@ const Contact = () => {
                                 <dd>
                                     <a
                                         className="hover:text-white"
-                                        href="tel:+1 (555) 234-5678"
+                                        href="tel:+917200736013"
                                     >
-                                        +91 9999111111
+                                        +91 7200736013
                                     </a>
                                 </dd>
                             </div>
