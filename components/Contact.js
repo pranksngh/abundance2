@@ -20,7 +20,7 @@ const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_un420tv', 'template_61fpms9', form.current, 'B5a23vDh7rP_CsmnA')
+      emailjs.sendForm('service_1vry5pm', 'template_61fpms9', form.current, 'B5a23vDh7rP_CsmnA')
         .then((result) => {
             alert('Email sent successfully');
         }, (error) => {
