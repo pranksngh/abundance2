@@ -1,10 +1,31 @@
 import { GridPattern } from "./GridPattern";
 import Image from "next/image";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import clsx from "clsx";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 
 import member1 from "../public/images/team3.jpg";
 import member2 from "../public/images/team2.png";
+import member3 from "../public/images/team4.jpg";
+import member4 from "../public/images/team5.jpg";
 
 const people = [
+    {
+        name: "Shashi Singh",
+        role: "Vice President, India Operations",
+        imageUrl: member3,
+        twitterUrl: "",
+        linkedinUrl: "",
+    },
+    {
+        name: "Sivakumar R",
+        role: "Head HR",
+        imageUrl: member4,
+        twitterUrl: "",
+        linkedinUrl: "",
+    },
     {
         name: "Yam Bahadur P",
         role: "Director",
@@ -19,10 +40,35 @@ const people = [
         twitterUrl: "https://twitter.com/Lokeshannamalai",
         linkedinUrl: "https://www.linkedin.com/in/lokesh-annamalai-800b852a0?trk=contact-infol",
     },
+   
     // More people...
 ];
 
 const Team = ({ title }) => {
+
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+            },
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+            },
+          },
+        ],
+      };
     return (
         <div className="relative bg-white py-24 sm:py-32">
             <div className="absolute inset-x-0 top-0 h-[884px] overflow-hidden rounded-t-4xl bg-gradient-to-b from-neutral-50 z-0">
@@ -42,8 +88,9 @@ const Team = ({ title }) => {
                 </div>
                 <ul
                     role="list"
-                    className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-6 lg:grid-center"
+                    className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-4 lg:gap-6 lg:grid-center"
                 >
+                    
                     {people.map((person) => (
                         <li
                             key={person.name}
