@@ -78,7 +78,7 @@ const Contact = () => {
                                 <dd>
                                 NEW NO 150 OLD NO 231,  GOLDEN SUNSHINE HOUSE,
                                     <br />
-                                    ROYAPETTAH HIGH ROAD, CHENNAI-600014, TAMIL NADU
+                                    ROYAPETTAH HIGH ROAD, CHENNAI, TAMIL NADU 600014
                                 </dd>
                             </div>
                             <div className="flex gap-x-4">

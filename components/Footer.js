@@ -116,9 +116,9 @@ const Footer = () => {
                                 />
                             </dt>
                             <dd>
-                                150, SUNSHINE, GARDEN APART ROYAPET,
+                            NEW NO 150 OLD NO 231,  GOLDEN SUNSHINE HOUSE,
                                 <br />
-                                ROYAPETTAH, CHENNAI-600014, TAMIL NADU
+                                ROYAPETTAH HIGH ROAD, CHENNAI, TAMIL NADU 600014
                             </dd>
                         </div>
                         <div className="flex gap-x-3">
