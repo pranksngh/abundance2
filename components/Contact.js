@@ -76,9 +76,9 @@ const Contact = () => {
                                     />
                                 </dt>
                                 <dd>
-                                150,  SUNSHINE, GARDEN APART ROYAPET,
+                                NEW NO 150 OLD NO 231,  GOLDEN SUNSHINE HOUSE,
                                     <br />
-                                    ROYAPETTAH, CHENNAI-600014, TAMIL NADU
+                                    ROYAPETTAH HIGH ROAD, CHENNAI-600014, TAMIL NADU
                                 </dd>
                             </div>
                             <div className="flex gap-x-4">
