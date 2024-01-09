@@ -56,7 +56,7 @@ const Home = () => {
     return (
         <div style={styles.container}>
           <h1 style={styles.title}>Under Maintenance</h1>
-          <p style={styles.message}>We're sorry for the inconvenience. Our site is currently undergoing maintenance. Please check back later.</p>
+          <p style={styles.message}>We&apos;re sorry for the inconvenience. Our site is currently undergoing maintenance. Please check back later.</p>
           <img src={imageUrl} alt="Maintenance Image" style={styles.image} />
         </div>
       );
