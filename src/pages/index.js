@@ -14,7 +14,11 @@ import PartnersSlider from "@/components/PartnersSlider";
 import { useRef } from 'react';
 import { Element } from 'react-scroll';
 
+
 const Home = () => {
+
+     // Replace with your Google image URL
+
     const [isScrollToTopBtn, setIsScrollToTopBtn] = useState();
 
     const featuresRef = useRef(null);
@@ -47,114 +51,44 @@ const Home = () => {
         };
     }, []);
 
+    const imageUrl = 'https://cdni.iconscout.com/illustration/premium/thumb/website-under-maintenance-4315048-3610782.png';
+
     return (
-        <>
-            <Head>
-                <title>Abundance | Solutions for Online Payments</title>
-                <meta name="description" content="M2M SOFTWARES" />
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
+        <div style={styles.container}>
+          <h1 style={styles.title}>Under Maintenance</h1>
+          <p style={styles.message}>We're sorry for the inconvenience. Our site is currently undergoing maintenance. Please check back later.</p>
+          <img src={imageUrl} alt="Maintenance Image" style={styles.image} />
+        </div>
+      );
 
-            <div className="bg-white">
-                <div className="relative overflow-hidden">
-                    {/* navbar section */}
-                    <Navbar scrollToFeatures={scrollToFeatures} />
-
-                    {/* hero section */}
-                    <main>
-                        <div
-                            style={{ height: "calc(100vh - 114px)" }}
-                            className="bg-gray-900 pt-10 sm:pt-16 lg:overflow-hidden lg:pb-14 lg:pt-8"
-                        >
-                            <div className="mx-auto max-w-7xl lg:px-8">
-                                <div className="lg:grid lg:grid-cols-2 lg:gap-8">
-                                    <div className="mx-auto max-w-md px-6 sm:max-w-2xl sm:text-center lg:flex lg:items-center lg:px-0 lg:text-left">
-                                        <div className="lg:py-24">
-                                            <h1 className="mt-4 text-4xl font-bold tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-                                                <span className="block">
-                                                    Where Innovation
-                                                </span>
-                                                <span className="block bg-gradient-to-r from-primary to-secondary bg-clip-text pb-3 text-transparent mt-3 sm:pb-5">
-                                                    Meets Payments
-                                                </span>
-                                            </h1>
-                                            <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
-                                                Abundance Payment Solutions, was
-                                                founded in 2023. We are a
-                                                leading fintech company
-                                                dedicated to simplifying online
-                                                payments. With a focus on
-                                                providing secure and efficient
-                                                UPI payment solutions, we aim to
-                                                make digital transactions a
-                                                breeze.
-                                            </p>
-                                            <div className="flex justify-center mt-6 sm:mt-8 lg:justify-start">
-                                                <button
-                                                    onClick={() => {
-                                                        router.push("/contact");
-                                                    }}
-                                                    className="block w-[160px] rounded-md bg-primary px-4 py-3 font-medium text-white shadow outline-none hover:bg-secondary hover:text-gray-900 transition-all"
-                                                >
-                                                    Get In Touch
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="-mb-16 mt-12 sm:-mb-48 lg:relative lg:m-0">
-                                        <div className="mx-auto max-w-md px-6 sm:max-w-2xl lg:max-w-none lg:px-0">
-                                            {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
-                                            <Image
-                                                className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                                                src="https://tailwindui.com/img/component-images/cloud-illustration-teal-cyan.svg"
-                                                width={1000}
-                                                height={1000}
-                                                alt=""
-                                            />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Feature section with grid */}
-                        <a id="features">
-                        <Features/>
-                       </a>
-
-                        {/* Get started section */}
-                        <GetStarted />
-
-                        {/* our team section */}
-                        <Team title={"Meet Our Team"} />
-
-                        {/* our partners section */}
-                        <p className="mt-2 text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">
-                            Our Partners
-                        </p>
-                        <PartnersSlider />
-
-                        {/* testominial section */}
-                        <Testimonial />
-                    </main>
-
-                    {/* footer section */}
-                    <Footer />
-                </div>
-            </div>
-
-            <div
-                className={`fixed right-4 bottom-4 flex items-center justify-center bg-primary w-12 h-12 primary-bg rounded-md cursor-pointer transition-all duration-200 z-50 ${
-                    isScrollToTopBtn
-                        ? "visible opacity-100"
-                        : "invisible opacity-0"
-                }`}
-                onClick={scrollToTop}
-            >
-                <KeyboardArrowUpIcon className="text-white" />
-            </div>
-        </>
-    );
 };
+
+
+const styles = {
+    container: {
+      textAlign: 'center',
+      marginTop: '50px',
+      backgroundColor: '#fff', // Change this to your desired background color
+      padding: '20px',
+     
+     
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center', // Center the content horizontally
+    },
+    title: {
+      fontSize: '24px',
+      marginBottom: '20px',
+    },
+    message: {
+      fontSize: '18px',
+      marginBottom: '20px',
+    },
+    image: {
+      maxWidth: '50%', // Adjusted to make the image responsive
+      height: 'auto',
+      borderRadius: '8px',
+    },
+  };
 
 export default Home;
