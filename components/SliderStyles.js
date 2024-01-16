@@ -10,7 +10,7 @@ export const CardContainer = styled.div`
 
 export const Card = styled.div`
   flex: 0 1 calc(33.33% - 20px);
-  background-color: #000;
+  background-color: #e5e7eb;
   color: #fff;
   border-radius: 10px;
   padding: 20px;
