@@ -11,7 +11,7 @@ export const CardContainer = styled.div`
 
 export const Card = styled.div`
   flex: 0 1 calc(50% - 20px);
-  background-color: #000;
+  background-color: #d3d3d3;
   color: #fff;
   border-radius: 10px;
   padding: 20px;
@@ -32,14 +32,17 @@ export const Image = styled.img`
 
 export const Name = styled.h2`
   margin-bottom: 5px;
+  color:#fff;
 `;
 
 export const Bio = styled.p`
   margin-bottom: 10px;
+  color:#fff;
 `;
 
 export const Designation = styled.p`
   font-style: italic;
+  color:#fff;
 `;
 
 const SliderCard = ({ photo, name, bio, designation }) => {
