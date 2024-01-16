@@ -11,6 +11,7 @@ import Testimonial from "@/components/Testimonial";
 import GetStarted from "@/components/GetStarted";
 import Team from "@/components/Team";
 import PartnersSlider from "@/components/PartnersSlider";
+import FAQS from "@/components/FAQS";
 import { useRef } from 'react';
 import { Element } from 'react-scroll';
 
@@ -121,16 +122,21 @@ const Home = () => {
                         <a id="features">
                         <Features/>
                        </a>
-
+                       
                         {/* Get started section */}
                         <GetStarted />
-
+                        
                         {/* our team section */}
                         <Team title={"Meet Our Team"} />
-
+                        
+                        
+                         {/*FAQ SECTION*/}
+                         <FAQS />
+                         <div style={{ marginBottom: '80px' }}></div>
+    
                         {/* our partners section */}
                         <p className="mt-2 text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">
-                            Our Partners
+                        90% of India’s top tech startups are on Trypay
                         </p>
                         <PartnersSlider />
 

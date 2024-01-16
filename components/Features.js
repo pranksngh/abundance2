@@ -7,6 +7,11 @@ import {
     LockClosedIcon,
     ServerIcon,
     ShieldCheckIcon,
+    LinkIcon,
+    BuildingLibraryIcon,
+    PlusCircleIcon,
+    CodeBracketIcon,
+    BoltIcon
 } from "@heroicons/react/24/outline";
 
 import { GridPattern } from "./GridPattern";
@@ -16,19 +21,19 @@ const features = [
         name: "Payment Links",
         description:
             "Share payment link via an email, SMS, messenger, chatbot etc. and get paid immediately",
-        icon: CloudArrowUpIcon,
+        icon: LinkIcon,
     },
     {
         name: "Payment Pages",
         description:
             "Take your store online instantly with zero coding. Accept international & domestic payments",
-        icon: LockClosedIcon,
+        icon: BuildingLibraryIcon,
     },
     {
         name: "Payment Buttons",
         description:
             "Create, Copy & Collect With Payment Button. Collect one time or subscription payments & more",
-        icon: ArrowPathIcon,
+        icon: PlusCircleIcon,
     },
     {
         name: "Easy Integration",
@@ -40,13 +45,13 @@ const features = [
         name: "Powerful API",
         description:
             "Build your business for scale with our complete API-driven automation that requires zero manual intervention",
-        icon: CogIcon,
+        icon: CodeBracketIcon,
     },
     {
         name: "Instant Activation",
         description:
             "Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation",
-        icon: ServerIcon,
+        icon: BoltIcon,
     },
 ];
 

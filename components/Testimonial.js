@@ -18,7 +18,7 @@ const reviews = [
 },
 {
     title: "I love it!",
-    body: "The speed at which Abundance Payment Products processes payments is unmatched. It has made a significant impact on our customer satisfaction.",
+    body: "The speed at which Abundance Payment Products processes payments is unmatched. It has made a significant impact on our customer.",
     author: "Kapil Singh",
     rating: 5,
 },
