@@ -17,7 +17,7 @@ const people = [
     imageUrl: member3,
     twitterUrl: '',
     linkedinUrl: '',
-    bio:"Shashi Singh is the Vice President – India Operations and drives the company’s strategy and execution. He has over 11 years of experience in the payments industry & is a proven high growth leader with extensive experience in Fintech, Payment gateway, Strategic Alliances, Banking & Lending."
+    bio:"Shashi Singh is the Vice President – India Operations and drives the company's strategy and execution. He has over 11 years of experience in the payments industry & is a proven high growth leader with extensive experience in Fintech, Payment gateway, Strategic Alliances, Banking & Lending."
   },
   {
     name: 'Sivakumar R',
@@ -25,21 +25,9 @@ const people = [
     imageUrl: member4,
     twitterUrl: '',
     linkedinUrl: '',
+    bio:"Passionate about organizations in constant rapid growth, love to see people and organizations bloom! Human resources leader with 18+ years of extensive experience in developing & executing HR strategy for leading Companies like Cognizant, Infosys, Concentrix, UST Global, Firstsource etc.",
   },
-  {
-    name: 'Yam Bahadur P',
-    role: 'Director',
-    imageUrl: member1,
-    twitterUrl: 'https://twitter.com/YamBahadurpuran',
-    linkedinUrl: 'https://www.linkedin.com/in/yam-bahadur-puran-413b872a0?trk=contact-info',
-  },
-  {
-    name: 'A Lokesh',
-    role: 'Director',
-    imageUrl: member2,
-    twitterUrl: 'https://twitter.com/Lokeshannamalai',
-    linkedinUrl: 'https://www.linkedin.com/in/lokesh-annamalai-800b852a0?trk=contact-infol',
-  },
+ 
   // More people...
 ];
 
@@ -48,7 +36,7 @@ const Team = ({ title }) => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -93,6 +81,8 @@ const Team = ({ title }) => {
                 </Name>
               
                 <Designation className="text-sm leading-6 text-gray-400">{person.role}</Designation>
+                <Bio className="text-sm leading-6">{person.bio}</Bio>
+
                 <ul role="list" className="mt-6 flex justify-center gap-x-6">
                   <li>
                     <a href={person.twitterUrl} className="text-gray-400 hover:text-gray-500">

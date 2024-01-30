@@ -36,8 +36,11 @@ export const Name = styled.h2`
 
 export const Bio = styled.p`
   margin-bottom: 10px;
+  color:#000;
 `;
 
 export const Designation = styled.p`
-  font-style: italic;
+  font-style: bold  ;
+  color:#000;   
+
 `;
