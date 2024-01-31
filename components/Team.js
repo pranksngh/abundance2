@@ -17,7 +17,7 @@ const people = [
     imageUrl: member3,
     twitterUrl: '',
     linkedinUrl: '',
-    bio:"Shashi Singh is the Vice President – India Operations and drives the company's strategy and execution. He has over 11 years of experience in the payments industry & is a proven high growth leader with extensive experience in Fintech, Payment gateway, Strategic Alliances, Banking & Lending."
+    bio:"Shashi Singh is the Vice President – India Operations and drives the company's strategy and execution. He has over 12 years of experience in the payments industry & is a proven high growth leader with extensive experience in Fintech, Payment gateway, Strategic Alliances, Banking & Lending."
   },
   {
     name: 'Sivakumar R',
