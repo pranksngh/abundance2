@@ -81,16 +81,7 @@ const Contact = () => {
                                     ROYAPETTAH HIGH ROAD, CHENNAI, TAMIL NADU 600014
                                 </dd>
                             </div>
-                            <div className="flex gap-x-4">
-                                <dt className="flex-none">
-                                    <span className="sr-only">Telephone</span>
-                                    <PhoneIcon
-                                        className="h-7 w-6 text-gray-400"
-                                        aria-hidden="true"
-                                    />
-                                </dt>
-                               
-                            </div>
+                          
                             <div className="flex gap-x-4">
                                 <dt className="flex-none">
                                     <span className="sr-only">Email</span>
