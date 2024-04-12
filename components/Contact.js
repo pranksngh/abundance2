@@ -89,14 +89,7 @@ const Contact = () => {
                                         aria-hidden="true"
                                     />
                                 </dt>
-                                <dd>
-                                    <a
-                                        className="hover:text-white"
-                                        href="tel:+917200736013"
-                                    >
-                                        +91 7200736013
-                                    </a>
-                                </dd>
+                               
                             </div>
                             <div className="flex gap-x-4">
                                 <dt className="flex-none">
