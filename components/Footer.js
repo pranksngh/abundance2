@@ -121,16 +121,7 @@ const Footer = () => {
                                 ROYAPETTAH HIGH ROAD, CHENNAI, TAMIL NADU 600014
                             </dd>
                         </div>
-                        <div className="flex gap-x-3">
-                            <dt className="flex-none">
-                                <span className="sr-only">Email</span>
-                                <PhoneIcon
-                                    className="h-7 w-63"
-                                    aria-hidden="true"
-                                />
-                            </dt>
-                            <dd>+91 72007360136</dd>
-                        </div>
+                       
                         <div className="flex gap-x-3">
                             <dt className="flex-none">
                                 <span className="sr-only">Email</span>
