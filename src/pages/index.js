@@ -107,7 +107,7 @@ const Home = () => {
                                             {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
                                             <Image
                                                 className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                                                src="https://tailwindui.com/img/component-images/cloud-illustration-teal-cyan.svg"
+                                                src="https://cdni.iconscout.com/illustration/premium/thumb/online-banking-portal-illustration-download-in-svg-png-gif-file-formats--digital-ebanking-app-and-finance-pack-business-illustrations-3783933.png?f=webp"
                                                 width={1000}
                                                 height={1000}
                                                 alt=""
